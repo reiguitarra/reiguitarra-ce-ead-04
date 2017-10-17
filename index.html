@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Exercicio Tabuada</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+    </head>
+<body>
+
+    <h1>Gerar Tabuada</h1>
+    <form action="saida.php" method="POST" id = "formu">
+        <table class = "tab1">
+            
+                <thead>
+                    <tr class='lincol'>
+                        <th>Informação</th><th>De</th><th>Até</th>
+                    </tr>
+                
+                </thead>
+                <tbody>
+                    <tr class='lincol'>
+                        <td class='lincol'>Criar tabuada a Partir do Número: </td>   
+                         <td class='col'><input type ="text" name="nDe1" size="2"></td> 
+                        <td class='col'><input type ="text" name="nAte1" size="2"></td>
+                    </tr>
+                    <tr class='lincol'>
+                        <td class='lincol'>Multiplicando os números de: </td> 
+                        <td class='col'><input type ="text" name="nDe2" size="2"></td> 
+                        <td class='col'><input type ="text" name="nAte2" size="2"></td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class='lincol'><input type ="submit" name="btnGerar" value="Gerar Tabuada"></td>
+                    </tr>
+                </tfoot>
+            
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body{
+    width: 70%;
+    height: 600px;  
+    
+    margin: auto;
+    background-color: #bdc3c7;
+   
+}
+
+#formu{
+    background-color: #bdc3c7;
+    width: 400px;
+    margin: auto;
+    border : 1px solid #7f8c8d;
+    
+}
+
+.lincol{
+    border : 1px solid #7f8c8d;
+
+}
+.col{
+    width: 80px;
+    border : 1px solid #7f8c8d;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+    color: chocolate;
+}
+#tab1 {
+background-color: grey;
+width: 400px;
+}
+tfoot{
+    text-align: center;
+}
+
+.tabuada{
+     
+    border : 1px solid #7f8c8d;
+    display: inline;
+    text-align: center;
+    background-color: #f39c12;
+}
+.col1:nth-child(even){
+    background-color: grey;
+    border: 1px solid  grey;
+}
+.titu{
+    border: solid 1px grey;
+ background-color: grey;   
+}
